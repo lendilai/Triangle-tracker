@@ -4,6 +4,14 @@ function tracker(){
   var sideC = parseFloat(document.getElementById('c').value;
   var text;
 }
-if ((a + b <= c) || (a + c <= b) || (b + c <= a)){
+
+
+if ((sideA + sideB <= sideC) || (sideA + sideC <= sideB) || (sideB + sideC <= sideA)){
     text = document.getElementById('result').innerHTML = "This is not a triangle!";
 }
+  else if ((sideA === sideB && sideA === sideC && sideB === sideC)){
+    text = document.getElementById('result').innerHTML = "This is an equilateral triangle";
+  }
+  else if (sideA === sideB || sideA === sideC || sideB === sideC){
+    text = document.getElementById('result').innerHTML = "This is an isosceles triangle";
+  }
