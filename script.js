@@ -15,6 +15,12 @@ function tracker(){
       else if (sideA**2 + sideB**2 === sideC**2){
         text = document.getElementById('result').innerHTML = "This is a right-angled triangle.";
       }
+      else if (sideA**2 + sideC**2 === sideB**2){
+        text = document.getElementById('result').innerHTML = "This is a right-angled triangle.";
+      }
+      else if (sideB**2 + sideC**2 === sideA**2){
+        text = document.getElementById('result').innerHTML = "This is a right-angled triangle.";
+      }
       else {
         text = document.getElementById('result').innerHTML = "This is a scalene triangle.";
       }
