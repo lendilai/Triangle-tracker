@@ -2,18 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Triangle tracker</title>
+    <link rel="stylesheet" href=styles.css>
   </head>
   <body>
     <h1>Triangle Tracker</h1>
-
       <fieldset>
         <legend>Dimensions</legend>
         <input type="number" name="sideA" id="a" placeholder="Side A">
         <input type="number" name="sideB" id="b" placeholder="Side B">
-        <input type="number" name="sideC" id="c" placeholder="Side C">
-        <input type="submit" name="Submit">
+        <input type="number" name="sideC" id="c" placeholder="Side C"><br>
+        <input type="submit" name="Submit" onclick="tracker()"><br>
+        <p id="result"></p>
       </fieldset>
-      <p id="result"></p>
+      <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
