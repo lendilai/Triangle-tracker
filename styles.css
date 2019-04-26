@@ -1,5 +1,18 @@
 body {
   margin:10% 20%;
   text-align: center;
-  background-color: #33A2FF;
+  background-color: #11648E;
+}
+fieldset {
+  border-radius: 10px;
+  height: 47vh;
+}
+input {
+  height:4vh;
+  width:10vw;
+  border-radius: 7px;
+  border:1px solid black;
+}
+#submit {
+  margin-top: 1%;
 }
