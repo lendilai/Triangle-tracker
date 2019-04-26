@@ -3,6 +3,7 @@ function tracker(){
   var sideB = parseFloat(document.getElementById("b").value);
   var sideC = parseFloat(document.getElementById("c").value);
   var text;
+  var sides = ["sideA", "sideB", "sideC", "text"]
   if (sideA + sideB <= sideC || sideA + sideC <= sideB || sideB + sideC <= sideA){
     text = document.getElementById('result').innerHTML = "This is not a triangle!";
 }
