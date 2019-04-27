@@ -5,25 +5,25 @@ function tracker(){
   var text;
   var sides = ["sideA", "sideB", "sideC", "text"]
   if (sideA + sideB <= sideC || sideA + sideC <= sideB || sideB + sideC <= sideA){
-    text = document.getElementById('result').innerHTML = "This is not a triangle!";
+    text = document.getElementById('result').innerHTML = '<strong>This is not a triangle!</strong>';
 }
       else if (sideA === sideB && sideA === sideC && sideB === sideC){
-        text = document.getElementById('result').innerHTML = "This is an equilateral triangle";
+        text = document.getElementById('result').innerHTML = 'This is an <strong>equilateral</strong> triangle';
       }
       else if (sideA === sideB || sideA === sideC || sideB === sideC){
-        text = document.getElementById('result').innerHTML = "This is an isosceles triangle";
+        text = document.getElementById('result').innerHTML = 'This is an <strong>isosceles</strong> triangle';
       }
       else if (sideA**2 + sideB**2 === sideC**2){
-        text = document.getElementById('result').innerHTML = "This is a right-angled triangle.";
+        text = document.getElementById('result').innerHTML = 'This is a <strong>right-angled</strong> triangle.';
       }
       else if (sideA**2 + sideC**2 === sideB**2){
-        text = document.getElementById('result').innerHTML = "This is a right-angled triangle.";
+        text = document.getElementById('result').innerHTML = 'This is a right-angled triangle.';
       }
       else if (sideB**2 + sideC**2 === sideA**2){
-        text = document.getElementById('result').innerHTML = "This is a right-angled triangle.";
+        text = document.getElementById('result').innerHTML = 'This is a right-angled triangle.';
       }
       else {
-        text = document.getElementById('result').innerHTML = "This is a scalene triangle.";
+        text = document.getElementById('result').innerHTML = 'This is a <strong>scalene</strong> triangle.';
       }
   }
   var triangle = function(){
