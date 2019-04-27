@@ -1,7 +1,7 @@
 body {
   text-align: center;
-  background-color: #637C33;
-  color: white;
+  background-color: #eeeeee;
+  color: black;
 }
 .Top {
   box-sizing: border-box;
@@ -11,6 +11,7 @@ body {
   background-position: center;
   padding-top:37vh;
   height: 100vh;
+  color:#eeeeee;
 }
 .Top h1 {
   font-size: 4vw;
@@ -29,6 +30,20 @@ body {
   padding-bottom: 6vh;
   text-decoration: underline;
 }
+.col-md-6 {
+  margin-bottom: 8%;
+}
+.row img {
+  height:10vw;
+  width: 10vw;
+}
+.row h3 {
+  font-size: 2.3vw;
+  color: black;
+}
+.row p {
+  font-size: 1.8vw;
+}
 fieldset {
   border-radius: 10px;
   height: 47vh;
@@ -38,14 +53,6 @@ input {
   width:10vw;
   border-radius: 7px;
   border:1px solid black;
-}
-
-.col-md-6 {
-  margin-bottom: 8%;
-}
-.row img {
-  height:10vw;
-  width: 10vw;
 }
 #submit {
   height:2vh;
