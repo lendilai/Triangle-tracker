@@ -8,13 +8,13 @@ body {
 }
 .Top {
   box-sizing: border-box;
-  background-image: url('https://media.giphy.com/media/ffd0F6WNcRJMQ/giphy.gif');
+  background-image: url('https://i.ytimg.com/vi/g_J1dqoXDKI/maxresdefault.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   padding-top:37vh;
   height: 100vh;
-  color:#eeeeee;
+  color:black;
 }
 .Top h1 {
   font-size: 4vw;
@@ -32,10 +32,11 @@ body {
 .fa-arrow-alt-circle-down {
   font-size: 2.4vw;
   padding-top: 0.5vh;
-  color: rgb(255,255,255);
+  color: #0A75AB;
 }
 .fa-arrow-alt-circle-down:hover{
-  color: green;
+  opacity:0.8;
+  transition: 0.4s;
 }
 .container {
   margin-top: 6%;
@@ -54,9 +55,45 @@ body {
 .row h3 {
   font-size: 2.3vw;
   color: black;
+  font-weight: bold;
 }
 .row p {
   font-size: 1.8vw;
+}
+a {
+  color:#034EA2;
+}
+a:hover{
+  font-weight: bold;
+  text-decoration: none;
+}
+.Areas{
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: center;
+}
+.Formula1{
+  background-image: url('https://ak2.picdn.net/shutterstock/videos/6096692/thumb/1.jpg');
+  background-size: contain;
+  background-position: center;
+  font-weight: bold;
+  width: 30vw;
+  border-radius: 50%;
+  margin-right: 6%;
+  height: 48vh;
+}
+.Formula2{
+  background-image: url('https://ak2.picdn.net/shutterstock/videos/6096692/thumb/1.jpg');
+  background-size: contain;
+  background-position: center;
+  font-weight: bold;
+  width:30vw;
+  border-radius: 50%;
+  height: 48vh;
+}
+.Areas p {
+  margin-top: 24%;
 }
 fieldset {
   border-radius: 10px;
