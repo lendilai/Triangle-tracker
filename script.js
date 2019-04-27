@@ -26,3 +26,17 @@ function tracker(){
         text = document.getElementById('result').innerHTML = "This is a scalene triangle.";
       }
   }
+  var triangle = function(){
+    var sideA = parseFloat(document.getElementById("a").value);
+    var sideB = parseFloat(document.getElementById("b").value);
+    var sideC = parseFloat(document.getElementById("c").value);
+
+    var sum = parseFloat((sideA + sideB + sideC) / 2);
+    var final = parseFloat(Math.sqrt(sum * (sum - sideA) * (sum - sideB) * (sum - sideC)));
+    if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)){
+      document.getElementById('area').innerHTML = "Please enter a value for each side."
+    }
+      else {
+        document.getElementById('area').innerHTML = "Area = " + final;
+      }
+  };
