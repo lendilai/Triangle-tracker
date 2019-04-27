@@ -3,11 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Triangle tracker</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href=styles.css>
-    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
   </head>
   <body>
+   <div class="container">
+     <div class="top">
+       <p>No triangle is sweeter than the one on a pizza</p>
+     </div>
     <h1>Triangle Tracker</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Equilateral triangles</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Triangle.Equilateral.svg/1200px-Triangle.Equilateral.svg.png" alt="Equilateral triangle">
+              <p>These have all sides being equal.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Isosceles triangles</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Triangle.Isosceles.svg/1200px-Triangle.Isosceles.svg.png" alt="Isosceles triangle">
+              <p>These have only two of their sides being equal.</p>
+        </div>
+        <div class="col-md-5">
+
+        </div>
+        <div class="col-md-5">
+
+        </div>
+      </div>
       <fieldset>
         <legend>Dimensions</legend>
         <input type="number" name="sideA" id="a" placeholder="Side A">
@@ -17,5 +39,6 @@
         <p id="result"></p>
       </fieldset>
       <script type="text/javascript" src="script.js"></script>
+    </div>
   </body>
 </html>
