@@ -5,12 +5,15 @@
     <title>Triangle tracker</title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href=styles.css>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
   <body>
      <div class="Top">
       <h1>Triangle Tracker</h1>
-       <p>No triangle is sweeter than the one on a pizza</p>
+       <p>No triangle is sweeter than the one on a pizza</p><br>
+       <p id="arrow">To start tracking click the arrow below</p>
+        <a href="#fieldset"><i class="fas fa-arrow-alt-circle-down"></i></a>
      </div>
      <div class="container">
        <h2>Types of triangles</h2>
@@ -36,13 +39,13 @@
               <p>These are scalene triangles with one angle being equal to 90 degrees.</p>
         </div>
       </div>
-      <fieldset>
+      <fieldset id="fieldset">
         <legend>Dimensions</legend>
         <input type="number" name="sideA" id="a" placeholder="Side A">
         <input type="number" name="sideB" id="b" placeholder="Side B">
         <input type="number" name="sideC" id="c" placeholder="Side C"><br>
-        <button type="submit" name="Sumit" onclick="tracker()" id="submit">Submit</button><br>
-        <button type="button" name="area" onclick="triangle()"></button>
+        <button type="submit" name="Sumit" onclick="tracker()" id="submit">Submit</button>
+        <button type="button" name="area" onclick="triangle()" id="area1">Area</button>
         <p id="result"></p>
         <p id="area"></p>
       </fieldset>

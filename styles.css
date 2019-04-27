@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   text-align: center;
   background-color: #eeeeee;
@@ -22,6 +25,17 @@ body {
   font-size: 2.5vw;
   font-family: 'Indie flower';
   font-style: italic;
+}
+.Top #arrow{
+  font-family: 'Lobster';
+}
+.fa-arrow-alt-circle-down {
+  font-size: 2.4vw;
+  padding-top: 0.5vh;
+  color: rgb(255,255,255);
+}
+.fa-arrow-alt-circle-down:hover{
+  color: green;
 }
 .container {
   margin-top: 6%;
@@ -54,7 +68,8 @@ input {
   border-radius: 7px;
   border:1px solid black;
 }
-button{
+#area1{
+  background-color: blue;
   height:2vh;
   width: 6vw;
   border: 1px solid black;
