@@ -5,13 +5,15 @@
     <title>Triangle tracker</title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href=styles.css>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   </head>
   <body>
-   <div class="container">
-     <div class="top">
+     <div class="Top">
+      <h1>Triangle Tracker</h1>
        <p>No triangle is sweeter than the one on a pizza</p>
      </div>
-    <h1>Triangle Tracker</h1>
+     <div class="container">
+       <h2>Types of triangles</h2>
       <div class="row">
         <div class="col-md-6">
           <h3>Equilateral triangles</h3>
@@ -23,14 +25,14 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Triangle.Isosceles.svg/1200px-Triangle.Isosceles.svg.png" alt="Isosceles triangle">
               <p>These have only two of their sides being equal.</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
           <h3>Scalene triangles</h3>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Triangle.Scalene.svg/1200px-Triangle.Scalene.svg.png" alt="Scalene triangle">
               <p>For these, none of the sides is the same.</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
           <h3>Right-angled-triangles</h3>
-            <img src="" alt="Right-angled-triangle">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Triangle.Right.svg/1200px-Triangle.Right.svg.png" alt="Right-angled-triangle">
               <p>These are scalene triangles with one angle being equal to 90 degrees.</p>
         </div>
       </div>
@@ -39,7 +41,7 @@
         <input type="number" name="sideA" id="a" placeholder="Side A">
         <input type="number" name="sideB" id="b" placeholder="Side B">
         <input type="number" name="sideC" id="c" placeholder="Side C"><br>
-        <input type="submit" name="Submit" onclick="tracker()" id="submit"><br>
+        <button type="submit" name="Sumit" onclick="tracker()" id="submit">Submit</button><br>
         <p id="result"></p>
       </fieldset>
       <script type="text/javascript" src="script.js"></script>

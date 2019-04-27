@@ -1,7 +1,33 @@
 body {
-  margin:10% 20%;
   text-align: center;
-  background-color: #11648E;
+  background-color: #637C33;
+  color: white;
+}
+.Top {
+  box-sizing: border-box;
+  background-image: url('https://media.giphy.com/media/ffd0F6WNcRJMQ/giphy.gif');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top:37vh;
+  height: 100vh;
+}
+.Top h1 {
+  font-size: 4vw;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+.Top p {
+  font-size: 2.5vw;
+  font-family: 'Indie flower';
+  font-style: italic;
+}
+.container {
+  margin-top: 6%;
+}
+.container h2 {
+  padding-bottom: 6vh;
+  text-decoration: underline;
 }
 fieldset {
   border-radius: 10px;
@@ -13,10 +39,20 @@ input {
   border-radius: 7px;
   border:1px solid black;
 }
+
+.col-md-6 {
+  margin-bottom: 8%;
+}
 .row img {
   height:10vw;
   width: 10vw;
 }
 #submit {
+  height:2vh;
+  width: 6vw;
+  border: 1px solid black;
+  padding-top: 0.7%;
+  padding-bottom: 2.5%;
+  border-radius: 7px;
   margin-top: 1%;
 }
