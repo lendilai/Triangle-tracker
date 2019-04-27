@@ -86,9 +86,8 @@ a:hover{
   background-position: center;
   font-weight: bold;
   width: 30vw;
-  border-radius: 50%;
   margin-right: 6%;
-  height: 48vh;
+  height: 30vh;
 }
 .Formula2{
   background-image: url('https://ak2.picdn.net/shutterstock/videos/6096692/thumb/1.jpg');
@@ -96,8 +95,7 @@ a:hover{
   background-position: center;
   font-weight: bold;
   width:30vw;
-  border-radius: 50%;
-  height: 48vh;
+  height: 30vh;
 }
 .Areas p {
   margin-top: 24%;
@@ -112,7 +110,7 @@ fieldset legend{
 fieldset {
   background-color: rgb(192,192,192);
   border-radius: 6px;
-  height: 140vh;
+  height: 130vh;
   margin-bottom: 10%;
 }
 fieldset img {
@@ -121,7 +119,7 @@ fieldset img {
   padding-bottom: 3%;
 }
 input {
-  height:7vh;
+  height:5vh;
   width:15vw;
   border-radius: 6px;
   border:1px solid black;
