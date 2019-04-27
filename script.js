@@ -16,15 +16,9 @@ function tracker(){
       else if (sideA**2 + sideB**2 === sideC**2){
         text = document.getElementById('result').innerHTML = 'This is a <strong>right-angled</strong> triangle.';
       }
-      else if (sideA**2 + sideC**2 === sideB**2){
-        text = document.getElementById('result').innerHTML = 'This is a right-angled triangle.';
-      }
-      else if (sideB**2 + sideC**2 === sideA**2){
-        text = document.getElementById('result').innerHTML = 'This is a right-angled triangle.';
-      }
-      else {
-        text = document.getElementById('result').innerHTML = 'This is a <strong>scalene</strong> triangle.';
-      }
+        else {
+          text = document.getElementById('result').innerHTML = 'This is a <strong>scalene</strong> triangle.';
+        }
   }
   var triangle = function(){
     var sideA = parseFloat(document.getElementById("a").value);
