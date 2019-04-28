@@ -24,15 +24,14 @@ The project can be accessed online through the live link in the description. Unf
 
 ## BDD
 
-  |      **Behaviour**       |     **Input example** | **Output example** |
-  |  Program should handle: |    What it receives:   |  It should return:  |  
-  | :---             |           :---:       |:---        |      
-  | None triangles | 0, 0 ,0 | Not a triangle |
-  | Equilateral triangles | 5, 5, 5 | This is an equilateral triangle |
-  | Isosceles triangles | 5, 5, 4 | This is an isosceles triangle |
-  | Scalene triangles | 6, 7, 8 | This is a scalene triangle |
-  | Right angled triangles | 3, 4, 5 | This is a right-angled triangle |
-  | Area of a triangle | 3, 4, 5 | Area = 6 |
+    Program should handle: | What it receives: | It should return:                
+   :---                    |       :---:       | :---                                  
+   None triangles          |      0, 0 ,0      | Not a triangle                  
+   Equilateral triangles   |      5, 5, 5      | This is an equilateral triangle
+   Isosceles triangles     |      5, 5, 4      | This is an isosceles triangle   
+   Scalene triangles       |      6, 7, 8      | This is a scalene triangle      
+   Right angled triangles  |      3, 4, 5      | This is a right-angled triangle
+   Area of a triangle      |      3, 4, 5      | Area = 6                        
 
 ## Known bugs
 There are no known bugs in the program so far. If you come across one you are free to contact me via the contacts below.
