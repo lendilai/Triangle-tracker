@@ -4,9 +4,12 @@ function tracker(){
   var sideC = parseFloat(document.getElementById("c").value);
   var text;
   var sides = ["sideA", "sideB", "sideC", "text"]
-  if (sideA + sideB <= sideC || sideA + sideC <= sideB || sideB + sideC <= sideA){
-    text = document.getElementById('result').innerHTML = '<strong>This is not a triangle!</strong> <br> <img src="Images/not.jpg">';
-}
+  if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)){
+    text = document.getElementById('result').innerHTML = '<strong>Please enter a value for each side!</strong>';
+  }
+      else if (sideA + sideB <= sideC || sideA + sideC <= sideB || sideB + sideC <= sideA){
+          text = document.getElementById('result').innerHTML = '<strong>This is not a triangle.</strong> <br> <img src="Images/not.jpg">';
+      }
       else if (sideA === sideB && sideA === sideC && sideB === sideC){
         text = document.getElementById('result').innerHTML = 'This is an <strong>equilateral</strong> triangle <br> <img src="Images/equilateral.png">';
       }

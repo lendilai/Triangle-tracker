@@ -1,4 +1,5 @@
 # Triangle tracker
+![](Image/home.png)
 #### A project that tracks the type of triangle, Date: 26.04.2019, Version:1.0
 #### By **Nathan Ng'ethe**
 
@@ -11,8 +12,11 @@ This project is aimed at allowing the user to track triangle types as by the dim
 * Finding the area of a triangle
 
 ### Types section
+![](Images/types.png)
 ### Tracker
+![](Images/tracker.png)
 ### Area finder
+![](Images/area.png)
 
 ## Setup
 The project can be accessed online through the live link in the description. Unfortunately it can not be setup on a computer but you are free to clone it.
@@ -22,8 +26,8 @@ The project can be accessed online through the live link in the description. Unf
 - [Bootstrap](https://getbootstrap.com/) - Bootstrap acts as a framework in the development of the project such as in positioning objects.
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript) - This was used to create the criteria for tracking the triangles as well as putting in the formula that finds the area of a triangle.
 
-## BDD
-  | Project should handle:     | Input example     | Output example   |
+## Behaviour Driven Development (BDD)
+  | Project should handle:     | Input example:     | Output example:   |
   | :------------- | :------------- | :------------- |
   | None triangles       | 0, 0, 0       | This is not a triangle  |
   | Equilateral triangles  | 5, 5, 5   | This is an equilateral triangle |

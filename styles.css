@@ -165,3 +165,7 @@ fieldset p {
   font-size: 1.7vw;
   font-family: fantasy;
 }
+footer {
+  margin-bottom: 3%;
+  font-size: 1.6vw;
+}
