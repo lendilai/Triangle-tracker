@@ -1,5 +1,5 @@
 # Triangle tracker
-![](Image/home.png)
+![](Images/home.png)
 #### A project that tracks the type of triangle, Date: 26.04.2019, Version:1.0
 #### By **Nathan Ng'ethe**
 
