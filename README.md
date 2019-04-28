@@ -23,9 +23,9 @@ The project can be accessed online through the live link in the description. Unf
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript) - This was used to create the criteria for tracking the triangles as well as putting in the formula that finds the area of a triangle.
 
 ## BDD
-  | Project should handle:     | Input example     |
-  | :------------- | :------------- |
-  | None triangles       | 0, 0, 0       |
+  | Project should handle:     | Input example     | Output example   |
+  | :------------- | :------------- | :-------------
+  | None triangles       | 0, 0, 0       | This is not a triangle  |
 
 ## Known bugs
 There are no known bugs in the program so far. If you come across one you are free to contact me via the contacts below.
