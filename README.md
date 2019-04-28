@@ -31,7 +31,7 @@ The project can be accessed online through the live link in the description. Unf
   | :------------- | :------------- | :------------- |
   | None triangles       | 0, 0, 0       | This is not a triangle  |
   | Equilateral triangles  | 5, 5, 5   | This is an equilateral triangle |
-  | Isosceles triangles  | 5, 5, 4  | This is na isosceles triangle  |
+  | Isosceles triangles  | 5, 5, 4  | This is an isosceles triangle  |
   | Scalene triangles  | 6, 7, 8 | This is a scalene triangle  |
   | Right- angled triangles  | 3, 4, 5  | This is a right-angled triangle  |
   | Area of a triangle  | 3, 4, 5 | Area = 6 |
