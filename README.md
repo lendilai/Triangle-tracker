@@ -23,15 +23,9 @@ The project can be accessed online through the live link in the description. Unf
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript) - This was used to create the criteria for tracking the triangles as well as putting in the formula that finds the area of a triangle.
 
 ## BDD
-
-    Program should handle: | What it receives: | It should return:                
-   :---                    |       :---:       | :---                                  
-   None triangles          |      0, 0 ,0      | Not a triangle                  
-   Equilateral triangles   |      5, 5, 5      | This is an equilateral triangle
-   Isosceles triangles     |      5, 5, 4      | This is an isosceles triangle   
-   Scalene triangles       |      6, 7, 8      | This is a scalene triangle      
-   Right angled triangles  |      3, 4, 5      | This is a right-angled triangle
-   Area of a triangle      |      3, 4, 5      | Area = 6                        
+  | Project should handle:     | Input example     |
+  | :------------- | :------------- |
+  | None triangles       | 0, 0, 0       |
 
 ## Known bugs
 There are no known bugs in the program so far. If you come across one you are free to contact me via the contacts below.
